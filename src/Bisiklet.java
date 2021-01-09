@@ -7,7 +7,7 @@ public class Bisiklet extends Arac{
 
 	@Override
 	public void purchase() {
-		System.out.println("Bisiklet");
+		System.out.print("Bisiklet");
 		tip1.book();
 		tip2.book();
 		

@@ -7,7 +7,7 @@ public class Araba extends Arac{
 
 	@Override
 	public void purchase() {
-		System.out.println("Araba");
+		System.out.print("Araba");
 		tip1.book();
 		tip2.book();		
 	}	
