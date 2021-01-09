@@ -5,4 +5,12 @@ public class Bisiklet extends Arac{
 		super(tip1, tip2);
 	}
 
+	@Override
+	public void purchase() {
+		System.out.println("Bisiklet");
+		tip1.book();
+		tip2.book();
+		
+	}
+
 }

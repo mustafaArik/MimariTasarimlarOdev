@@ -7,4 +7,6 @@ public abstract class Arac {
 		this.tip1 = tip1;
 		this.tip2 = tip2;		
 	}
+	
+	abstract public void purchase();
 }
